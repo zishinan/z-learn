@@ -1,4 +1,4 @@
-# mybatis入门与精通-TypeHandler详解
+# mybatis入门与精通-自定义处理enum的TypeHandler
 mybatis为我们定义了很多自定义的Handler，以enum这种特殊类型来讲解下如何使用，其他类型的类似处理即可。
 #### EnumTypeHandler
 mybatis默认处理enum的Handler，将enum的属性名映射到数据库中，处理为字符串。
